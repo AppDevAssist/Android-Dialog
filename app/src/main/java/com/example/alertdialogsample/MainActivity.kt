@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun showAlert(view: View) {
-        MyDialog().show(supportFragmentManager, "mydialog")
+//        MyDialog().show(supportFragmentManager, "mydialog")
+        CustomDialog().show(supportFragmentManager, "customdialog")
     }
 }
